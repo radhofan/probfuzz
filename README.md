@@ -1,3 +1,7 @@
+## NOTE: THIS REPO IS INTENDED AS A REPRODUCIBLE PAPER EXPERIMENT AND HENCE HAS MORE EXTRA INSTRUCTIONS FOR SET UP THAN THE ORIGINAL REPO
+## REPRODUCE THIS REPO IN TROVI VIA THIS LINK: https://chameleoncloud.org/experiment/share/e452db9c-71a7-4864-8707-35cf0c304ab7
+## ORIGINAL REPO LINK: https://github.com/uiuc-arc/probfuzz
+
 Probfuzz
 ================================================================================
 
@@ -16,14 +20,32 @@ ProbFuzz is a tool for testing Probabilistic Programming Systems(PPS). It encode
 		├── models.json					# Contains information for all valid distributions, their arguments and support  
 		├── config.json					# Configuration for the tool 
 
+
+## Set up Trovi Project
+
+Deactivate default conda trovi environment
+```bash
+conda deactivate
+```
+Move to `work/[current_session]` folder inside Chameleon Trovi and update apt and install zip afterwards
+
+For `check.py` and `probfuzz.py`, replace the first shebang line with:
+```
+#!/usr/bin/python2
+```
+
 ## How to install?  
 
 Install dependencies:  
-
 ```
 sudo ./install.sh
 ```
 It should print ```Install successful```
+
+Install antler 4.7.1 inside trovi again since it gives error using the normal install.sh
+```
+pip2 install antlr4-python2-runtime==4.7.1
+```
 
 Run probfuzz:  
 ```
