@@ -34,6 +34,12 @@ For `check.py` and `probfuzz.py`, replace the first shebang line with:
 #!/usr/bin/python2
 ```
 
+For install.sh file, replace last line with:
+```
+chmod +x check.py
+python2 ./check.py
+```
+
 ## How to install?  
 
 Install dependencies:  
