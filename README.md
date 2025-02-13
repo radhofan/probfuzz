@@ -1,6 +1,6 @@
-## NOTE: THIS REPO IS INTENDED AS A REPRODUCIBLE PAPER EXPERIMENT AND HENCE HAS MORE EXTRA INSTRUCTIONS FOR SET UP THAN THE ORIGINAL REPO
-## REPRODUCE THIS REPO IN TROVI VIA THIS LINK: https://chameleoncloud.org/experiment/share/e452db9c-71a7-4864-8707-35cf0c304ab7
-## ORIGINAL REPO LINK: https://github.com/uiuc-arc/probfuzz
+### NOTE: THIS REPO IS INTENDED AS A REPRODUCIBLE PAPER EXPERIMENT AND HENCE HAS MORE EXTRA/MODIFIED INSTRUCTIONS FOR SET UP THAN THE ORIGINAL REPO
+### REPRODUCE THIS REPO IN TROVI VIA THIS LINK: https://chameleoncloud.org/experiment/share/3675e32b-4500-4688-88cb-f9e0bef1b5a9
+### ORIGINAL REPO LINK: https://github.com/uiuc-arc/probfuzz
 
 Probfuzz
 ================================================================================
@@ -55,7 +55,7 @@ pip2 install antlr4-python2-runtime==4.7.1
 
 Run probfuzz:  
 ```
-./probfuzz.py [#programs]
+python2 ./probfuzz.py [#programs]
 ```
 Check program output in ```output``` folder
 
