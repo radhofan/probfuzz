@@ -25,13 +25,16 @@ ProbFuzz is a tool for testing Probabilistic Programming Systems(PPS). It encode
 		├── config.json					# Configuration for the tool 
 
 
-## Set up Trovi Project
+## Set up Trovi Project (if using trovi) :
+
+cd into correct working directory
 
 Deactivate default conda trovi environment
 ```bash
 conda deactivate
 ```
-Move to `work/[current_session]` folder inside Chameleon Trovi and update apt and install zip afterwards
+
+## Installations
 
 For `check.py` and `probfuzz.py`, replace the first shebang line with:
 ```
