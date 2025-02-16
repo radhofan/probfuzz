@@ -2,8 +2,8 @@
 ### THIS README.MD MAY HAVE MORE INSTRUCTIONS THAN THE ORIGINAL REPO TO ENSURE PERFECT REPLICATION
 ### REPRODUCE THIS REPO IN TROVI VIA THIS LINK: https://chameleoncloud.org/experiment/share/3675e32b-4500-4688-88cb-f9e0bef1b5a9
 ### REPRODUCE THIS REPO IN BINDER VIA THIS LINK: https://mybinder.org/ 
-    - GitHub Repository: `[Insert GitHub Repo Link Here]`  
-    - Notebook File (`.ipynb`):** `[Insert Notebook File Name Here]`  
+    - GitHub Repository : `https://github.com/radhofan/probfuzz.git`  
+    - Notebook File : `reproduce.ipynb`
 ### ORIGINAL REPO LINK: https://github.com/uiuc-arc/probfuzz
 
 Probfuzz
