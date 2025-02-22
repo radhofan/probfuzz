@@ -27,6 +27,7 @@ chmod +x ./probfuzz/install.sh
 bash ./probfuzz/install.sh
 pip install numpy==1.16.6
 pip install antlr4-python2-runtime==4.7.1
+pip show antlr4-python2-runtime
 
 # Run ProbFuzz
 python probfuzz/probfuzz.py 5
