@@ -25,8 +25,8 @@ python2 get-pip.py pip==19.3.1
 # Installation
 chmod +x ./probfuzz/install.sh
 sudo ./probfuzz/install.sh
-pip install numpy==1.16.6
-pip install antlr4-python2-runtime==4.7.1
+python2 -m pip install install numpy==1.16.6
+python2 -m pip install install antlr4-python2-runtime==4.7.1
 
 # Run ProbFuzz
 python2 probfuzz/probfuzz.py 5
