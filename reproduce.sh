@@ -31,6 +31,7 @@ pip show antlr4-python2-runtime
 mamba list | grep antlr
 
 # Run ProbFuzz
+which python
 python probfuzz/probfuzz.py 5
 
 
