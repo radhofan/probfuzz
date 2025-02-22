@@ -26,9 +26,10 @@
 sudo apt update
 sudo apt install -y python2
 wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
-pip2 install --upgrade "pip==19.3.1"  
+python2 get-pip.py
 echo 'export PATH=$HOME/.local/bin:$PATH' >> ~/.bashrc
-source ~/.bashrc
+source ~/.bashrc  
+pip2 install --upgrade "pip==19.3.1"  
 
 python2 --version
 pip2 --version
