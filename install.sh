@@ -10,6 +10,8 @@ sudo apt install -y openjdk-17-jdk
 sudo update-alternatives --set java /usr/lib/jvm/java-17-openjdk-amd64/bin/java
 sudo update-alternatives --set javac /usr/lib/jvm/java-17-openjdk-amd64/bin/javac
 java -version
+sudo apt install maven
+mvn -version
 python2 -m pip install http://download.pytorch.org/whl/cpu/torch-0.4.0-cp27-cp27mu-linux_x86_64.whl
 
 # Run check.py
