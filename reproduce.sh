@@ -27,7 +27,7 @@ sudo apt update
 sudo apt install -y python2
 wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 python2 get-pip.py
-bash export PATH=$HOME/.local/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
 echo 'export PATH=$HOME/.local/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
 python2 --version
