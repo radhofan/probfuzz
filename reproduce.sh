@@ -26,7 +26,10 @@
 sudo apt update
 sudo apt install -y python2
 wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
-python2 get-pip.py pip==19.3.1
+pip2 install --upgrade "pip==19.3.1"  
+echo 'export PATH=$HOME/.local/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
+
 chmod +x ./probfuzz/install.sh
 sudo ./probfuzz/install.sh
 pip2 install antlr4-python2-runtime==4.7.1
