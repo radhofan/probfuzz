@@ -19,6 +19,7 @@ eval "$(mamba shell hook --shell=bash)"
 # Create and activate 'flex' environment
 mamba create -n probfuzz python=2.7.18 -c conda-forge -y
 mamba activate probfuzz
+mamba install pip -y
 
 # Installation
 chmod +x ./probfuzz/install.sh
