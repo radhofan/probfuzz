@@ -34,7 +34,8 @@ mamba list | grep antlr
 which python
 python --version
 chmod +x probfuzz/probfuzz.py
-./probfuzz/probfuzz.py 5
+/home/cc/miniconda/envs/probfuzz/bin/python probfuzz/probfuzz.py 5
+#./probfuzz/probfuzz.py 5
 
 
 

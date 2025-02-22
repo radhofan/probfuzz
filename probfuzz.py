@@ -1,4 +1,4 @@
-#!/home/cc/miniconda/envs/probfuzz/bin/python
+
 
 import subprocess as sp
 import time
