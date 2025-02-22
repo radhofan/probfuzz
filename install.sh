@@ -1,7 +1,6 @@
 # Update package lists and install bc
 sudo apt-get -y update
 sudo apt-get install -y bc
-sudo add-apt-repository ppa:openjdk-r/ppa
 sudo apt update
 
 # Install Python dependencies in the Conda environment
