@@ -27,13 +27,13 @@ sudo apt update
 sudo apt install -y python2
 wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 python2 get-pip.py
-export PATH=$HOME/.local/bin:$PATH
+bash export PATH=$HOME/.local/bin:$PATH
 echo 'export PATH=$HOME/.local/bin:$PATH' >> ~/.bashrc
-source ~/.bashrc  
+source ~/.bashrc
+python2 --version
+pip2 --version  
 pip2 install --upgrade "pip==19.3.1"  
 
-python2 --version
-pip2 --version
 
 chmod +x ./probfuzz/install.sh
 sudo ./probfuzz/install.sh
