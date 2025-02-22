@@ -23,8 +23,8 @@ sudo apt-get install -y bc
 sudo pip2 --no-cache-dir install antlr4-python2-runtime six astunparse ast pystan edward pyro-ppl==0.2.1 tensorflow==1.5.0 pandas
 sudo pip2 install http://download.pytorch.org/whl/cpu/torch-0.4.0-cp27-cp27mu-linux_x86_64.whl 
 wget http://www.antlr.org/download/antlr-4.7.1-complete.jar -P probfuzz/language/antlr/
-chmod +x probfuzz/run.sh
-./probfuzz/run.sh
+chmod +x probfuzz/language/antlr/run.sh
+./probfuzz/language/antlr/run.sh
 chmod +x probfuzz/check.py
 ./probfuzz/check.py
 
