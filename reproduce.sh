@@ -33,7 +33,8 @@ mamba list | grep antlr
 # Run ProbFuzz
 which python
 python --version
-python2 probfuzz/probfuzz.py 5
+chmod +x probfuzz/probfuzz.py
+./probfuzz/probfuzz.py 5
 
 
 
