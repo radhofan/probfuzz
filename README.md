@@ -1,8 +1,8 @@
-### NOTE: THIS REPO IS INTENDED AS A REPRODUCIBLE PAPER EXPERIMENT AND IS INTENDED TO BE RAN INSIDE TROVI
-### THIS README.MD MAY HAVE MORE INSTRUCTIONS THAN THE ORIGINAL REPO TO ENSURE PERFECT REPLICATION
-### REPRODUCE THIS REPO IN TROVI VIA THIS LINK: https://chameleoncloud.org/experiment/share/3675e32b-4500-4688-88cb-f9e0bef1b5a9
-### YOU CAN REPRODUCE EITHER INSIDE THE TERMINAL OR RUN THE REPRODUCE.IPYNB FILE
-### ORIGINAL REPO LINK: https://github.com/uiuc-arc/probfuzz
+### NOTE: THIS REPOSITORY IS A REPRODUCIBLE PAPER EXPERIMENT AND IS INTENDED TO BE RAN INSIDE CHAMELEON TROVI
+#### Reproduce this experiment via reproduce.ipynb
+#### This experiment has been modified to ensure perfect replication
+#### Reproduce this repository in Chameleon Trovi here: 
+#### Original repository link: https://github.com/uiuc-arc/probfuzz
 
 Probfuzz
 ================================================================================
