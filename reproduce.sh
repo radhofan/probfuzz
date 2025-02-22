@@ -26,7 +26,7 @@ python2 get-pip.py pip==19.3.1
 chmod +x ./probfuzz/install.sh
 bash ./probfuzz/install.sh
 pip install numpy==1.16.6
-pip install antlr4-python2-runtime==4.7.1
+# pip install antlr4-python2-runtime==4.7.1
 pip show antlr4-python2-runtime
 mamba list | grep antlr
 
