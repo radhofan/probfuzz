@@ -17,7 +17,7 @@ source ~/.bashrc  # Reload shell config
 eval "$(mamba shell hook --shell=bash)"
 
 # Create and activate 'flex' environment
-mamba create -n probfuzz python=2.7.18 -c conda-forge -y
+mamba create -n probfuzz python=2.7.12 -c conda-forge -y
 mamba activate probfuzz
 wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 python2 get-pip.py pip==19.3.1
@@ -34,8 +34,7 @@ mamba list | grep antlr
 which python
 python --version
 chmod +x probfuzz/probfuzz.py
-/home/cc/miniconda/envs/probfuzz/bin/python probfuzz/probfuzz.py 5
-#./probfuzz/probfuzz.py 5
+./probfuzz/probfuzz.py 5
 
 
 
