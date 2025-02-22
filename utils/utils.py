@@ -173,7 +173,7 @@ def parse_models(inference=False, funcs=False):
 
 
 def read_config():
-    with open('config.json') as configFile:
+    with open('probfuzz/config.json') as configFile:
         configs = json.load(configFile)
         return configs
 

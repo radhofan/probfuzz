@@ -25,7 +25,7 @@ sudo pip2 install http://download.pytorch.org/whl/cpu/torch-0.4.0-cp27-cp27mu-li
 wget http://www.antlr.org/download/antlr-4.7.1-complete.jar -P probfuzz/language/antlr/
 chmod +x probfuzz/language/antlr/run.sh
 ./probfuzz/language/antlr/run.sh
-pip2 install antlr4-python2-runtime==4.7.1
+sudo pip2 install antlr4-python2-runtime==4.7.1
 chmod +x probfuzz/check.py
 ./probfuzz/check.py
 
