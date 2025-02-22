@@ -1,7 +1,7 @@
 # Update package lists and install bc
 sudo apt-get -y update
 sudo apt-get install -y bc
-sudo add-apt-repository --remove ppa:webupd8team/java
+sudo rm /etc/apt/sources.list.d/openjdk-r-ubuntu-ppa-jammy.list
 sudo apt update
 
 # Install Python dependencies in the Conda environment
