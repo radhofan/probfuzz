@@ -23,7 +23,8 @@ mamba activate probfuzz
 # Installation
 chmod +x ./probfuzz/install.sh
 sudo ./probfuzz/install.sh
-pip2 install antlr4-python2-runtime==4.7.1
+pip install numpy==1.16.6
+pip install antlr4-python2-runtime==4.7.1
 
 # Run ProbFuzz
 python2 probfuzz/probfuzz.py 5
