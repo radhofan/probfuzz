@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 
 try: 
     import antlr4, six, astunparse, ast, pystan, edward, pyro, tensorflow, pandas, torch
