@@ -28,10 +28,10 @@
     }
   ],
   "templates": {
-    "simple" : "language/templates/simple.template",
-    "lr": "language/templates/linearregression.template",
-    "mlr": "language/templates/mlr.template",
-    "lrc": "language/templates/cond.template"
+    "simple" : "probfuzz/language/templates/simple.template",
+    "lr": "probfuzz/language/templates/linearregression.template",
+    "mlr": "probfuzz/language/templates/mlr.template",
+    "lrc": "probfuzz/language/templates/cond.template"
   },
   "edward" :{
     "inferences" : [
