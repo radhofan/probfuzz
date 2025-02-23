@@ -129,7 +129,7 @@ def generate_programs_from_template():
                     stan = Stan(file_dir_name, data, priors, distmap, constmap, current_template, config)
                     stan.create_program()
                     # add the driver
-                    sp.Popen(['cp', 'driver.py', file_dir_name], stdout=sp.PIPE).communicate()
+                    sp.Popen(['cp', 'probfuzz/driver.py', file_dir_name], stdout=sp.PIPE).communicate()
                 elif toolconfig[_TOOL] == 'edward':
                     edward = Edward(file_dir_name, data, priors, distmap, constmap, current_template, config,
                                     toolconfig.get('name', 'edward'))
