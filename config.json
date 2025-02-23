@@ -1,6 +1,6 @@
 {
   "max_threads": 1,
-  "output_dir": "output",
+  "output_dir": "probfuzz/output",
   "structured" : true,
   "current_template": "lr",
   "metric" : "lr_smape",
