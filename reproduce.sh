@@ -44,7 +44,7 @@
 # python2 ./probfuzz/probfuzz.py 5
 
 sudo apt update
-sudo apt install openjdk-17-jdk
+sudo apt install -y openjdk-17-jdk
 java -version
 sudo ./probfuzz/install.sh
 ./probfuzz/probfuzz.py 5
