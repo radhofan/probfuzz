@@ -14,7 +14,8 @@ class TemplatePopulator():
         self.validModel = True
 
     def populate(self, structured=True):
-        f = open(self.templatefile)
+        # f = open(self.templatefile)
+        self.templatefile = 'probfuzz/language/templates/linearregression.template'
         template = antlr4.FileStream(self.templatefile)
         lexer = TemplateLexer(template)
         stream = antlr4.CommonTokenStream(lexer)
