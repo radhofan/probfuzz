@@ -43,7 +43,8 @@
 # chmod +x probfuzz/probfuzz.py
 # python2 ./probfuzz/probfuzz.py 5
 
-
+sudo apt update
+sudo apt install openjdk-17-jdk
 sudo ./probfuzz/install.sh
 ./probfuzz/probfuzz.py 5
 
