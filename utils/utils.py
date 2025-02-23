@@ -152,7 +152,7 @@ def generate_linear_data2D(size, output_type):
 
 
 def parse_models(inference=False, funcs=False):
-    with open('models.json') as modelFile:
+    with open('probfuzz/models.json') as modelFile:
         models = json.load(modelFile)
         # filter models or inferences if ignore flag is present
         filteredModels = []
