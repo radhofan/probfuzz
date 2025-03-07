@@ -157,7 +157,7 @@ def generate_programs_from_template():
 
 def printSummary(dir, metric):
     print("Printing summary")
-    process = sp.Popen("./summary.sh  -m {0} -d {1} | column -t -s,".format(metric, dir), stdout=sp.PIPE, stderr=sp.PIPE, shell=True)
+    process = sp.Popen("./probfuzz/summary.sh  -m {0} -d {1} | column -t -s,".format(metric, dir), stdout=sp.PIPE, stderr=sp.PIPE, shell=True)
     dataout, dataerr = process.communicate()
 
     with open(dir + '/summary.csv', 'w') as summaryfile:
