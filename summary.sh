@@ -2,7 +2,8 @@
 #usage ./summary.sh -m [metric] -d [directory of results]
 metric="lr_smape"
 directory="probfuzz"
-basedir=`pwd`
+#basedir=`pwd`
+basedir=$(dirname "$(readlink -f "$0")")
 while getopts ":m:d:" opt;do
     case ${opt} in
 	m )
