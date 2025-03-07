@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #usage ./summary.sh -m [metric] -d [directory of results]
 metric="lr_smape"
-directory="."
+directory="probfuzz"
 basedir=`pwd`
 while getopts ":m:d:" opt;do
     case ${opt} in
